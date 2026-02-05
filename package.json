@@ -1,0 +1,25 @@
+{
+    "name": "block-breaker",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "scripts": {
+        "start": "tsx index.ts",
+        "dev": "tsx index.ts --watch",
+        "pretty": "prettier --write ."
+    },
+    "author": "Filip Stępień",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "tsx": "^4.21.0",
+        "zod": "^4.3.6"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.2",
+        "@types/node": "^25.2.0",
+        "eslint": "^9.39.2",
+        "prettier": "^3.8.1",
+        "typescript-eslint": "^8.54.0"
+    }
+}
